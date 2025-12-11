@@ -134,6 +134,8 @@ python virtual_sensors.py
 
    - Continuously updates Blynk virtual pins V1, V2, and V3.
 
+![Virtual Sensor](Assets/Virtual_Sensor.png)
+
 ### 2. Start automation logic
 
 ```python automation.py```
@@ -150,12 +152,15 @@ streamlit run Dashboard.py
 
 - Shows live sensor readings and appliance statuses.
 
+![Virtual Home](Assets/Virtual_Home.png)
+
 ### 4. Use Blynk dashboards
 
 - Open Blynk Console (web) or the Blynk mobile app.
 
 - View the same sensor and actuator data, and interact with the switches for Light, Fan, and AC.
 
+![Streamlit Dashboard](Assets/Dashboard.png)
 ## 🤖 Automation Rules (Example)
 - AC Control
 
