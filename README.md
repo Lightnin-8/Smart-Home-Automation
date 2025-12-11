@@ -190,3 +190,10 @@ streamlit run Dashboard.py
 - Explains how cloud‑based dashboards interact with edge logic.
 
 - Can be extended to real hardware later by replacing virtual sensors with microcontroller code that uses the same Blynk virtual pins.
+
+
+## 🙌 Author
+
+Created by Himanshu GitHub: https://github.com/Lightnin-8
+
+LinkedIn: https://linkedin.com/in/himanshuchoudhari
