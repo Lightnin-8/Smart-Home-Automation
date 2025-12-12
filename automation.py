@@ -4,7 +4,7 @@ import requests
 # -------------------------
 # BLYNK AUTH TOKEN
 # -------------------------
-BLYNK_AUTH = "MAAnB2H2BhnKSs2uQzURiCS0mMZxWt6w"    # <-- replace this!
+BLYNK_AUTH = "Your_Auth_Token"    # <-- replace this!
 
 BASE_URL = "https://blr1.blynk.cloud/external/api"
 
@@ -90,3 +90,4 @@ print("Smart Home Automation Running...")
 while True:
     automation_logic()
     time.sleep(1)
+
