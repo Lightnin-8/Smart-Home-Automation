@@ -2,7 +2,7 @@ import time
 import random
 import requests
 
-BLYNK_AUTH = "MAAnB2H2BhnKSs2uQzURiCS0mMZxWt6w"
+BLYNK_AUTH = "Your_Auth_Token"
 BASE_URL = "https://blr1.blynk.cloud/external/api"
 
 
@@ -23,3 +23,4 @@ while True:
     blynk_set("V3", motion)
 
     time.sleep(2)
+
