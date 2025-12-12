@@ -4,7 +4,7 @@ import requests
 # ----------------------------
 # BLYNK SETTINGS
 # ----------------------------
-BLYNK_TOKEN = "MAAnB2H2BhnKSs2uQzURiCS0mMZxWt6w"
+BLYNK_TOKEN = "Your_Auth_Token"
 
 V1_TEMP = "V1"
 V2_LIGHT = "V2"
@@ -82,3 +82,4 @@ motion_box.metric("🚶 Motion", "Yes" if motion else "No")
 light_status.write(f"💡 **Light:** {'ON' if act_light else 'OFF'}")
 fan_status.write(f"🌀 **Fan:** {'ON' if act_fan else 'OFF'}")
 ac_status.write(f"❄ **AC:** {'ON' if act_ac else 'OFF'}")
+
